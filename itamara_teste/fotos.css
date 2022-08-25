@@ -1,0 +1,42 @@
+1{
+    color:rgba(236, 240, 241,1.0);
+    
+
+    text-align:center ;
+   
+}
+body{
+   background-image: url("https://classic.exame.com/wp-content/uploads/2021/08/bola_futebol.jpg?quality=70&strip=info&w=1024");
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+
+}
+label{
+    color:rgba(236, 240, 241,1.0)
+}
+
+form {
+    text-align: center;
+}
+a{
+    color:rgba(236, 240, 241,1.0) ;
+}
+.formulario{
+    display: flex;
+    flex-direction: column ;
+}
+.campo{
+margin: 20px;
+color: brown;
+}
+
+.fotos{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.fotos img{
+    margin: 5px;
+}

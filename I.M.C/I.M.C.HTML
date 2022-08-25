@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <title>calculadora IMC</title>
+        <script type="text/javascript">
+            function calcularIMC() {
+                event.preventDefault();
+                let peso= document.getElementById("peso").value;
+                let altura=document.getElementById("altura").value/100;
+
+                if (peso==""|| altura== "") {
+                    alert("preencha os campos")
+                }
+
+                let resutadoIMC = ( peso / (altura*altura) );
+                if(resutadoIMC==" "|| resutadoIMC  == null){
+                    alert("ops, algo errado aconteceu!")
+                }
+                let resultado = document.getElementById("resultado");
+                resultado.innerText ="seu imc é: " + resutadoIMC.toFixed(2)
+            }
+          
+        </script>
+</head>
+<body>
+    <form>
+        <h1>calculadora imc</h1>
+        <div>
+            <label for="peso">peso</label>
+            <input type="number" id="peso" placeholder="digite seu pesso"/>
+            <small>kg</small>
+        </div>
+
+        <div>
+            <label for="altura">altura</label>
+            <input type="number" id="altura" placeholder="digite sua altura"/>
+            <small>cm</small>
+        </div>
+
+        <div>
+            <button type="submit" onclick="calcularIMC();"> calcular </button>
+        </div>
+        <div id="resultado"></div>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+body{
+    background-image: url("https://s2.glbimg.com/yAffjPA_JiV4zBSdhoOqS3cukuo=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/d/L/W8FHXrRJuz4a8KMWw1xw/abc-festa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.videos{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div{
+    margin: 5px;
+}

@@ -1,0 +1,32 @@
+h1{
+    color:rgba(236, 240, 241,1.0);
+    
+
+    text-align:center ;
+   
+}
+body{
+   background-image: url("https://img.wallpapic-br.com/i6672-915-89/medium/futebol-trevas-design-grafico-jogador-imagem-de-fundo.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+
+}
+label{
+    color:rgba(236, 240, 241,1.0)
+}
+
+form {
+    text-align: center;
+}
+a{
+    color:rgba(236, 240, 241,1.0) ;
+}
+.formulario{
+    display: flex;
+    flex-direction: column ;
+}
+.campo{
+margin: 20px;
+color: brown;
+}
