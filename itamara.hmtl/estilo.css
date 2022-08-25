@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topo{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+    align-items: center;
+
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.logo-intragran{
+    width:  30px;
+    height: 30px;
+    margin-right: 30px;
+}
+.icone-facebook{
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+}
+.bloco{
+     padding: 20px; 
+     display: flex; 
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+.imagem-bloco{
+    flex:1;
+}
+.imagem-bloco img{
+    width: 100%;
+}
+.texto-bloco{
+    flex:1;
+    margin-left: 20px;
+}
